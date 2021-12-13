@@ -15,7 +15,7 @@ async def answer(_, inline_query):
 				title=f"GMT Time at Present",
 				input_message_content=InputTextMessageContent(gmt),
 				description="Tap to send gmt time to current chat",
-				thumb_url="https://telegra.ph/file/b29908ccae574846c264a.jpg",
+				thumb_url="https://telegra.ph/file/e9d04f7aefeb794a01fa2.jpg",
 			)
 		],
 		cache_time=1,
