@@ -17,7 +17,7 @@ async def answer(_, inline_query):
 					title=f"Time at Present",
 					input_message_content=InputTextMessageContent(string),
 					description="Tap to send time to current chat",
-					thumb_url="https://telegra.ph/file/b29908ccae574846c264a.jpg",
+					thumb_url="https://telegra.ph/file/e9d04f7aefeb794a01fa2.jpg",
 				)
 			],
 			cache_time=1,
@@ -29,13 +29,13 @@ async def answer(_, inline_query):
 					title=f"Time at Present",
 					input_message_content=InputTextMessageContent(string),
 					description="Tap to send time to current chat",
-					thumb_url="https://telegra.ph/file/b29908ccae574846c264a.jpg",
+					thumb_url="https://telegra.ph/file/e9d04f7aefeb794a01fa2.jpg",
 				),
 				InlineQueryResultArticle(
 					title=f"How to use this bot ?",
 					input_message_content=InputTextMessageContent(Data.HELP, parse_mode="Markdown"),
 					description=f"Tap to know how to use me properly.",
-					thumb_url="https://telegra.ph/file/b29908ccae574846c264a.jpg",
+					thumb_url="https://telegra.ph/file/e9d04f7aefeb794a01fa2.jpg",
 				)
 			],
 			cache_time=1,
