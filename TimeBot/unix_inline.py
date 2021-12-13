@@ -16,13 +16,13 @@ async def answer(_, inline_query):
 				title=f"Unix Time at Present",
 				input_message_content=InputTextMessageContent(f"**UNIX TIME** :- `{unixtime}`"),
 				description="Tap to send unix time to current chat",
-				thumb_url="https://telegra.ph/file/b29908ccae574846c264a.jpg",
+				thumb_url="https://telegra.ph/file/e9d04f7aefeb794a01fa2.jpg",
 			),
 			InlineQueryResultArticle(
 				title=f"What is Unix Time ?",
 				input_message_content=InputTextMessageContent(what),
 				description="Tap to know what is unix time",
-				thumb_url="https://telegra.ph/file/b29908ccae574846c264a.jpg",
+				thumb_url="https://telegra.ph/file/e9d04f7aefeb794a01fa2.jpg",
 			)
 		],
 		cache_time=1,
