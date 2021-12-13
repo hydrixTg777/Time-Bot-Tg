@@ -4,31 +4,31 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+𝑯𝒆𝒚 {}
 
-Welcome to {}
+𝑾𝒍𝒄 𝒕𝒐 {}
 
-I am a Time Teller bot and I can show time of different places in different ways (Not Wakanda :P).
+𝑰 𝒂𝒎 𝒂 𝑻𝒊𝒎𝒆 𝑻𝒆𝒍𝒍𝒆𝒓 𝒃𝒐𝒕 𝒂𝒏𝒅 𝑰 𝒄𝒂𝒏 𝒔𝒉𝒐𝒘 𝒕𝒊𝒎𝒆 𝒐𝒇 𝒅𝒊𝒇𝒇𝒆𝒓𝒆𝒏𝒕 𝒑𝒍𝒂𝒄𝒆𝒔 𝒊𝒏 𝒅𝒊𝒇𝒇𝒆𝒓𝒆𝒏𝒕 𝒘𝒂𝒚𝒔.
 
-Use below buttons to learn more !
+𝑼𝒔𝒆 𝒉𝒆𝒍𝒑 𝒃𝒐𝒕𝒕𝒐𝒏 𝒃𝒆𝒍𝒐𝒘 𝒕𝒐 𝒍𝒆𝒂𝒓𝒏 𝒉𝒐𝒘 𝒕𝒐 𝒖𝒔𝒆 𝒕𝒉𝒊𝒔 !
 
-By @StarkBots
+❤️✨
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏠 Return Home", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🔴 MrX", url="https://t.me/Starfvivviir")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("🆘 About", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("📣 Channel", url="https://t.me/Tg_Galaxy")],
+        [InlineKeyboardButton("👥 Group", url="https://t.me/Stagvvufxwfut")],
     ]
 
     # Help Message
@@ -48,7 +48,7 @@ Use below commands to use me. I can be used everywhere including here, groups, c
 /start - `Check if bot is alive.`
 
 **Inline Mode** :-
-Format :- "`@TimeTellerBot <pass some text>`"
+Format :- "`@TimeXbot_xbot <pass some text>`"
 Use above format to use inline mode as follows:
 - Pass no text or pass "time" to get current time.
 - Pass any timezone to get that timezone's current time.
@@ -60,13 +60,13 @@ Use above format to use inline mode as follows:
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to show time of different places in different ways. by @StarkBots
+A telegram bot to show time of different places in different ways,
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/TimeBot)
+Channel : [Click Here](https://t.me/Tg_Galaxy)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Thanks for using bot 😽
     """
